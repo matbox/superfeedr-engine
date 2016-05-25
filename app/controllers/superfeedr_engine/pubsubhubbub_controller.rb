@@ -37,7 +37,7 @@ module SuperfeedrEngine
           end
         end
       end
-      render :text => "Thanks"
+      render plain: 'Thanks!'
     end
 
     protected
